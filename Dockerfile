@@ -1,5 +1,5 @@
 # Use Node.js 20 LTS as base image
-FROM node:20
+FROM node:latest
 
 # Create app directory
 WORKDIR /usr/src/app
